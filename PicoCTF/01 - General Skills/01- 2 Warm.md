@@ -28,9 +28,27 @@ Recipe: From base, To base
 Output: 101010
 
 ```
+
+
+## Solución 3
+```
+ceciSolis-picoctf@webshell:~$ python
+Python 3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+bin(42)[2:]
+'101010'
+```
+
+
 ## Notas Adicionales 
+Tambien se puede realizar usando primero el decimal y luego que lo convierta a binario
 
+```
+Input: 42
+Recipe: From Decimal, To Binary
+Output: 101010
 
+```
 ## Referencias 
 https://gchq.github.io/CyberChef/
 https://webshell.picoctf.org/

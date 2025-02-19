@@ -24,8 +24,11 @@ Usando cyberchef https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9
 `Recipe: From Base64`
 ==`Output: l3arn_th3_r0p35`==
 ## Notas Adicionales 
-
-
+Desde el usuario
+```
+`CeciSolis-picoctf@webshell:~$ echo "bDNhcm5fdGgzX3IwcDM1" | base64 --decode`
+`l3arn_th3_r0p35Sebas115-picoctf@webshell:~$`
+```
 ## Referencias 
 https://steemit.com/utopian-io/@otakngoding/how-to-create-encoding-and-decoding-base64-using-python
 https://gchq.github.io/CyberChef/
