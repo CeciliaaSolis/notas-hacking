@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5ecf095d87e4dfd2",
+        "id": "ae00f4b6de66bd3e",
         "type": "tabs",
         "children": [
           {
-            "id": "effd7f854d372cb2",
+            "id": "9e6758b3ea0952ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PicoCTF Web/01- Web/01- Insp3ctor.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01- Insp3ctor"
-            }
-          },
-          {
-            "id": "be513fe75850ea91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PicoCTF Web/02 - Web/03 - Scavenger Hunt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 - Scavenger Hunt"
+              "title": "Nueva pestaña"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,12 +164,18 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "be513fe75850ea91",
+  "active": "9e6758b3ea0952ad",
   "lastOpenFiles": [
-    "PicoCTF Web/02 - Web/01- Get Head.md",
-    "PicoCTF Web/02 - Web/02- Cookies.md",
     "PicoCTF Web/02 - Web/03 - Scavenger Hunt.md",
+    "PicoCTF Web/03- Web/02- More SQLi.md",
+    "PicoCTF Web/03- Web/01- Irirsh Name Repo 1.md",
+    "PicoCTF Web/03- Web/03- JaWT Scratchpad.md",
+    "Pasted image 20250328184006.png",
+    "Pasted image 20250328184011.png",
+    "PicoCTF Web/02 - Web/02- Cookies.md",
+    "PicoCTF Web/02 - Web/01- Get Head.md",
     "PicoCTF Web/01- Web/01- Insp3ctor.md",
+    "PicoCTF Web/03- Web",
     "PicoCTF Web/01- Web/02- Where are the robots.md",
     "PicoCTF Web/01- Web",
     "PicoCTF Web/01- Web/03- Logon.md",
@@ -212,13 +199,9 @@
     "Concurso CTF/Fantasy.md",
     "PicoCTF/Tarea 1 - General Skills/04- Committee Issue.md",
     "Concurso CTF",
-    "PicoCTF/Tarea 1 - General Skills/10- ASCII Numbers.md",
-    "PicoCTF/Tarea 1 - General Skills/09- Binhexa.md",
-    "PicoCTF/Tarea 1 - General Skills/08- Binary Search.md",
     "PicoCTF/Tarea 1 - General Skills",
     "PicoCTF/03- General Skills",
     "PicoCTF/02- General Skills",
-    "PicoCTF/01 - General Skills/Sin nombre",
-    "PicoCTF/01 - General Skills"
+    "PicoCTF/01 - General Skills/Sin nombre"
   ]
 }
