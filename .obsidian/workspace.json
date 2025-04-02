@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PicoCTF Forensic/05- What Lies Within.md",
+                "file": "PicoCTF Web/04- Web/02- SOAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05- What Lies Within"
+              "title": "02- SOAP"
             }
           }
         ]
@@ -170,15 +170,15 @@
   },
   "active": "9e6758b3ea0952ad",
   "lastOpenFiles": [
+    "PicoCTF Web/04- Web/03- Trickster.md",
+    "PicoCTF Web/04- Web/04- Most Cookies.md",
+    "PicoCTF Web/04- Web/02- SOAP.md",
+    "PicoCTF Web/04- Web/01- MatchTheRegex.md",
+    "PicoCTF Forensic/05- What Lies Within.md",
     "PicoCTF Forensic/04- Extensions.md",
     "PicoCTF Forensic/03- Shark on wire 1.md",
     "PicoCTF Forensic/02- So Meta.md",
     "PicoCTF Forensic/01- Glory of the Garden.md",
-    "PicoCTF Web/04- Web/03- Trickster.md",
-    "PicoCTF Web/04- Web/01- MatchTheRegex.md",
-    "PicoCTF Web/04- Web/04- Most Cookies.md",
-    "PicoCTF Web/04- Web/02- SOAP.md",
-    "PicoCTF Forensic/05- What Lies Within.md",
     "PicoCTF Web/02 - Web/01- Get Head.md",
     "PicoCTF/Tarea 1 - General Skills/01- Permissions.md",
     "PicoCTF Forensic",
