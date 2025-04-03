@@ -5,6 +5,8 @@
 
 Additional details will be available after launching your challenge instance.*
 
+*Go to this [website](http://saturn.picoctf.net:49604/) and see what you can discover.*
+
 ## Pistas
 
 *Do you know how to modify cookies?*
@@ -12,42 +14,25 @@ Additional details will be available after launching your challenge instance.*
 ## Solución
 
 ```
+#Entramos al url nos muestra
 
-Indice HTML
-<!-- Here's the first part of the
-flag: picoCTF{t
+Online Gradebook
+Continue as guest
 
-CSS
-/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
-
-JS.
-/* How can I keep Google from indexing my website? */
-http://mercury.picoctf.net:5080/robots.txt
-User-agent: *
-Disallow: /index.html
-# Part 3: t_0f_pl4c
-# I think this is an apache server... can you Access the next flag?
-
-#Seguimos pista
-http://mercury.picoctf.net:5080/.htaccess
-# Part 4: 3s_2_lO0k
-# I love making websites on my Mac, I can Store a lot of information there.
-
-#Seguimos pista
-
-http://mercury.picoctf.net:5080/.DS_Store
-Congrats! You completed the scavenger hunt.
-Part 5: _35844447}
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
+#Si le damos en inspeccionar,luego aplicacion en cookies, sale admin valor 1 que es true, si le damos click al boton continue as gues, nos manda a otra pagina, le damos en inspeccionar y luego aplicacion en cookies, en admin el admin es 0, le cambiamos el valor a 1 y recargamos y muestra la bandera
+|   |   |   |   |   |   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+|isAdmin|1|saturn.picoctf.net|/|Sesión|8||||||Medium|
+picoCTF{gr4d3_A_c00k13_0d351e23}
 ```
 
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
+picoCTF{gr4d3_A_c00k13_0d351e23}
 
 ## Notas Adicionales 
 
-Al darle click en What en el sitio, nos mandaba varias cosas que usaba, entonces le dimos inspeccionar, luego fuentes, en el html encontramos la primera parte, en css la segunda, en l tercera en javascripts nos da una pista si no quiero que google indexe mi sitio web entonces voy a robots.txt,donde se va encontrar la siguiente parte, luego la pista de ahi dice que esta en un servidor apache que es htaccess dond estará la otra bandera, finalmente dice la pista que es donde se almacena un monton de informacion que es el ds_store , juntamos las 5 partes y obtenemos la bandera.
+*Es modificarle el valor a los administradores, por si esta en 0 que es false, cambiarlo a 1 para que nos de permiso de ver la bandera*
 ## Referencias 
 
-http://mercury.picoctf.net:5080/robots.txt
-http://mercury.picoctf.net:5080/.htaccess
-http://mercury.picoctf.net:5080/.DS_Store
+http://saturn.picoctf.net:49604/
+http://saturn.picoctf.net:49604/admin.html
+http://saturn.picoctf.net:49604/check.php

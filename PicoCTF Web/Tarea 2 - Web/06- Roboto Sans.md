@@ -3,6 +3,7 @@
 
 *The flag is somewhere on this web application not necessarily on the website. Find it.
 Additional details will be available after launching your challenge instance.*
+*Check [this](http://saturn.picoctf.net:57137/) out.*
 
 ## Pistas
 
@@ -12,41 +13,39 @@ Additional details will be available after launching your challenge instance.*
 
 ```
 
-Indice HTML
-<!-- Here's the first part of the
-flag: picoCTF{t
+#Entramos al url, nos dice que esta en la aplicacion web, mas no en el sitio al que nos muestra, buscamos robots.txt para ver si hay una pista
+User-agent *
+Disallow: /cgi-bin/
+Think you have seen your flag or want to keep looking.
 
-CSS
-/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
+ZmxhZzEudHh0;anMvbXlmaW
+anMvbXlmaWxlLnR4dA==
+svssshjweuiwl;oiho.bsvdaslejg
+Disallow: /wp-admin/
 
-JS.
-/* How can I keep Google from indexing my website? */
-http://mercury.picoctf.net:5080/robots.txt
-User-agent: *
-Disallow: /index.html
-# Part 3: t_0f_pl4c
-# I think this is an apache server... can you Access the next flag?
+#La pista la pasamos a cyberchef, para que la decodifique
 
-#Seguimos pista
-http://mercury.picoctf.net:5080/.htaccess
-# Part 4: 3s_2_lO0k
-# I love making websites on my Mac, I can Store a lot of information there.
+Input: ZmxhZzEudHh0;
+	   anMvbXlmaWxlLnR4dA==
+	   oiho.bsvdaslejg
 
-#Seguimos pista
+Recipe:From Base64
+Output:flag1.txtjs/myfile.txt¢(hnËÝjÉ^
 
-http://mercury.picoctf.net:5080/.DS_Store
-Congrats! You completed the scavenger hunt.
-Part 5: _35844447}
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
+#Escribimos lo que nos dio el cyberchef y si nos da la bandera.
+http://saturn.picoctf.net:57883/js/myfile.txt
+
+picoCTF{Who_D03sN7_L1k5_90B0T5_032f1c2b}
 ```
 
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
 
+picoCTF{Who_D03sN7_L1k5_90B0T5_032f1c2b}
 ## Notas Adicionales 
 
-Al darle click en What en el sitio, nos mandaba varias cosas que usaba, entonces le dimos inspeccionar, luego fuentes, en el html encontramos la primera parte, en css la segunda, en l tercera en javascripts nos da una pista si no quiero que google indexe mi sitio web entonces voy a robots.txt,donde se va encontrar la siguiente parte, luego la pista de ahi dice que esta en un servidor apache que es htaccess dond estará la otra bandera, finalmente dice la pista que es donde se almacena un monton de informacion que es el ds_store , juntamos las 5 partes y obtenemos la bandera.
+
 ## Referencias 
 
-http://mercury.picoctf.net:5080/robots.txt
-http://mercury.picoctf.net:5080/.htaccess
-http://mercury.picoctf.net:5080/.DS_Store
+http://saturn.picoctf.net:57137/
+http://saturn.picoctf.net:57883/robots.txt
+http://saturn.picoctf.net:57883/js/myfile.txt
+https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=Wm14aFp6RXVkSGgwOw0KDQoNCmFuTXZiWGxtYVd4bExuUjRkQT09DQoNCg0Kb2loby5ic3ZkYXNsZWpnDQo&ieol=CRLF&oeol=VT

@@ -2,7 +2,8 @@
 ## Descripción
 
 *I don't like scrolling down to read the code of my website, so I've squished it. As a bonus, my pages load faster!
-Additional details will be available after launching your challenge instance.*
+Additional details will be available after launching your challenge instance
+*Browse [here](http://titan.picoctf.net:60811/), and find the flag!*
 ## Pistas
 
 *Try CTRL+U / ⌘+U in your browser to view the page source. You can also add 'view-source:' before the URL, or try `curl <URL>` in your shell.*
@@ -13,42 +14,19 @@ Additional details will be available after launching your challenge instance.*
 ## Solución
 
 ```
+#Enramos al url
+nos muestra una pagina que dice ser distribuidor de banderas
 
-Indice HTML
-<!-- Here's the first part of the
-flag: picoCTF{t
+#Le damos ctrl u como dice la pista, revisamos el código y se encuentra la bandera
 
-CSS
-/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
-
-JS.
-/* How can I keep Google from indexing my website? */
-http://mercury.picoctf.net:5080/robots.txt
-User-agent: *
-Disallow: /index.html
-# Part 3: t_0f_pl4c
-# I think this is an apache server... can you Access the next flag?
-
-#Seguimos pista
-http://mercury.picoctf.net:5080/.htaccess
-# Part 4: 3s_2_lO0k
-# I love making websites on my Mac, I can Store a lot of information there.
-
-#Seguimos pista
-
-http://mercury.picoctf.net:5080/.DS_Store
-Congrats! You completed the scavenger hunt.
-Part 5: _35844447}
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>picoCTF - picoGym | Unminify Challenge</title><link rel="icon" type="image/png" sizes="32x32" href="[/favicon-32x32.png](http://titan.picoctf.net:60811/favicon-32x32.png)"><style>body{font-family:"Lucida Console",Monaco,monospace}h1,p{color:#000}</style></head><body class="picoctf{}" style="margin:0"><div class="picoctf{}" style="margin:0;padding:0;background-color:#757575;display:auto;height:40%"><a class="picoctf{}" href="[/](http://titan.picoctf.net:60811/)"><img src="[picoctf-logo-horizontal-white.svg](http://titan.picoctf.net:60811/picoctf-logo-horizontal-white.svg)" alt="picoCTF logo" style="display:inline-block;width:160px;height:90px;padding-left:30px"></a></div><center><br class="picoctf{}"><br class="picoctf{}"><div class="picoctf{}" style="padding-top:30px;border-radius:3%;box-shadow:0 5px 10px #0000004d;width:50%;align-self:center"><img class="picoctf{}" src="[hero.svg](http://titan.picoctf.net:60811/hero.svg)" alt="flag art" style="width:150px;height:150px"><div class="picoctf{}" style="width:85%"><h2 class="picoctf{}">Welcome to my flag distribution website!</h2><div class="picoctf{}" style="width:70%"><p class="picoctf{}">If you're reading this, your browser has succesfully received the flag.</p><p class="picoCTF{pr3tty_c0d3_d9c45a0b}"></p><p class="picoctf{}">I just deliver flags, I don't know how to read them...</p></div></div><br class="picoctf{}"></div></center></body></html>
 ```
 
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_35844447}
+picoCTF{pr3tty_c0d3_d9c45a0b}
 
 ## Notas Adicionales 
 
-Al darle click en What en el sitio, nos mandaba varias cosas que usaba, entonces le dimos inspeccionar, luego fuentes, en el html encontramos la primera parte, en css la segunda, en l tercera en javascripts nos da una pista si no quiero que google indexe mi sitio web entonces voy a robots.txt,donde se va encontrar la siguiente parte, luego la pista de ahi dice que esta en un servidor apache que es htaccess dond estará la otra bandera, finalmente dice la pista que es donde se almacena un monton de informacion que es el ds_store , juntamos las 5 partes y obtenemos la bandera.
+*Tambien podemos darle en inspeccionar, en fuentes y tambien ahí se encuentra la bandera.*
 ## Referencias 
 
-http://mercury.picoctf.net:5080/robots.txt
-http://mercury.picoctf.net:5080/.htaccess
-http://mercury.picoctf.net:5080/.DS_Store
+http://titan.picoctf.net:60811/
