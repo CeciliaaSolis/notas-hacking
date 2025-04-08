@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ae00f4b6de66bd3e",
+        "id": "86af040119195858",
         "type": "tabs",
         "children": [
           {
-            "id": "9e6758b3ea0952ad",
+            "id": "fe667f38531c9b5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PicoCTF Web/Tarea 2 - Web/01- Includes.md",
+                "file": "PicoCTF Forensic/02- Forensic/05- Shark on wire 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01- Includes"
+              "title": "05- Shark on wire 2"
             }
           }
         ]
@@ -168,8 +168,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9e6758b3ea0952ad",
+  "active": "fe667f38531c9b5f",
   "lastOpenFiles": [
+    "PicoCTF Forensic/02- Forensic/04- Like1000.md",
+    "PicoCTF Forensic/02- Forensic/05- Shark on wire 2.md",
+    "PicoCTF Forensic/02- Forensic/03- Corrupt.md",
+    "PicoCTF Forensic/02- Forensic/02- WhitePages.md",
+    "PicoCTF Forensic/02- Forensic/01- M00nWalk.md",
+    "PicoCTF Forensic/01- Forensic/04- Extensions.md",
+    "PicoCTF Forensic/01- Forensic/05- What Lies Within.md",
+    "PicoCTF Forensic/01- Forensic/01- Glory of the Garden.md",
+    "PicoCTF Forensic/02- Forensic",
+    "PicoCTF Forensic/01- Forensic/02- So Meta.md",
+    "PicoCTF Web/Tarea 2 - Web/01- Includes.md",
+    "PicoCTF Forensic/01- Forensic",
     "PicoCTF Web/Tarea 2 - Web/02- Inspect HTML.md",
     "PicoCTF Web/Tarea 2 - Web/03- IntroToBurp.md",
     "PicoCTF Web/Tarea 2 - Web/04- Local Authority.md",
@@ -179,34 +191,22 @@
     "PicoCTF Web/Tarea 2 - Web/08- SQLiLite.md",
     "PicoCTF Web/Tarea 2 - Web/09- Unminify.md",
     "PicoCTF Web/Tarea 2 - Web/10- WebDecode.md",
-    "PicoCTF Web/Tarea 2 - Web/01- Includes.md",
     "PicoCTF Web/04- Web/02- SOAP.md",
     "PicoCTF Web/04- Web/03- Trickster.md",
     "PicoCTF Web/04- Web/04- Most Cookies.md",
     "PicoCTF Web/04- Web/01- MatchTheRegex.md",
-    "PicoCTF Forensic/05- What Lies Within.md",
-    "PicoCTF Forensic/04- Extensions.md",
-    "PicoCTF Forensic/03- Shark on wire 1.md",
-    "PicoCTF Forensic/02- So Meta.md",
-    "PicoCTF Forensic/01- Glory of the Garden.md",
+    "PicoCTF Forensic/01- Forensic/03- Shark on wire 1.md",
     "PicoCTF Web/02 - Web/01- Get Head.md",
     "PicoCTF/Tarea 1 - General Skills/01- Permissions.md",
     "PicoCTF Forensic",
     "PicoCTF/Sin nombre",
-    "PicoCTF/Sin título.md",
     "PicoCTF Web/04- Web",
-    "PicoCTF Web/02 - Web/03 - Scavenger Hunt.md",
     "PicoCTF Web/Tarea 2 - Web",
-    "PicoCTF Web/03- Web/02- More SQLi.md",
-    "PicoCTF Web/03- Web/01- Irirsh Name Repo 1.md",
-    "PicoCTF Web/03- Web/03- JaWT Scratchpad.md",
     "Pasted image 20250328184006.png",
     "Pasted image 20250328184011.png",
     "PicoCTF Web/03- Web",
     "PicoCTF Web/01- Web",
     "PicoCTF Web/02 - Web",
-    "PicoCTF Web",
-    "PicoCTF/01- Web",
-    "Concurso CTF"
+    "PicoCTF Web"
   ]
 }
