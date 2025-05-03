@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concurso CTF/Examen Parcial1/Parte 2/07 - Java Code Analysis.md",
+                "file": "PicoCTF Forensic/03- Forensic/01- WebNet0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07 - Java Code Analysis"
+              "title": "01- WebNet0"
             }
           }
         ]
@@ -170,6 +170,14 @@
   },
   "active": "fe667f38531c9b5f",
   "lastOpenFiles": [
+    "PicoCTF Forensic/03- Forensic/02- WebNet1.md",
+    "PicoCTF Forensic/03- Forensic/03- Matryoshka doll.md",
+    "PicoCTF Forensic/03- Forensic/04- tunn3l_v1s10n.md",
+    "PicoCTF Forensic/03- Forensic/05- MacroHard WeakEdge.md",
+    "PicoCTF Forensic/03- Forensic/01- WebNet0.md",
+    "PicoCTF Forensic/01- Forensic/05- What Lies Within.md",
+    "Concurso CTF/Examen Parcial1/Parte 2/07 - Java Code Analysis.md",
+    "PicoCTF Forensic/03- Forensic",
     "Concurso CTF/Examen Parcial1/Parte 2/10 - WebSockFish.md",
     "Concurso CTF/Examen Parcial1/Parte 2/09 - SSTI 2.md",
     "Concurso CTF/Examen Parcial1/Parte 2/08 - SQL Direct.md",
@@ -180,7 +188,6 @@
     "Concurso CTF/Examen Parcial1/Parte 1/03- Python Wrangling.md",
     "Concurso CTF/Examen Parcial1/Parte 1/02- HashingJobApp.md",
     "Concurso CTF/Examen Parcial1/Parte 1/01- Fantasy.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/07 - Java Code Analysis.md",
     "Concurso CTF/Examen Parcial1/Parte 2/05- SSTI1.md",
     "Concurso CTF/Examen Parcial1/Parte 2/06 - Findme.md",
     "Concurso CTF/Examen Parcial1/Parte 2/04- n0s4n1ty 1.md",
@@ -192,21 +199,14 @@
     "Concurso CTF/Examen Parcial1/Parte 1/08- Flag Shop.md",
     "Concurso CTF/Examen Parcial1/Parte 2",
     "Concurso CTF/Examen Parcial1/Parte 1",
-    "PicoCTF Forensic/01- Forensic/01- Glory of the Garden.md",
-    "PicoCTF Forensic/01- Forensic/02- So Meta.md",
-    "Plantilla.md",
-    "Concurso CTF/SHUFFLE.md",
-    "PicoCTF Forensic/02- Forensic/05- Shark on wire 2.md",
     "Concurso CTF/Examen Parcial1",
     "PicoCTF/Sin nombre",
-    "PicoCTF Forensic/02- Forensic/04- Like1000.md",
     "PicoCTF Forensic/02- Forensic",
     "PicoCTF Forensic/01- Forensic",
     "PicoCTF Forensic",
     "PicoCTF Web/04- Web",
     "PicoCTF Web/Tarea 2 - Web",
     "Pasted image 20250328184006.png",
-    "Pasted image 20250328184011.png",
-    "PicoCTF Web/03- Web"
+    "Pasted image 20250328184011.png"
   ]
 }
