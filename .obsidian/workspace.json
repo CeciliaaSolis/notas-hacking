@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PicoCTF Forensic/03- Forensic/01- WebNet0.md",
+                "file": "PicoCTF Forensic/04- Forensic/06- Operation Oni.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01- WebNet0"
+              "title": "06- Operation Oni"
             }
           }
         ]
@@ -170,11 +170,18 @@
   },
   "active": "fe667f38531c9b5f",
   "lastOpenFiles": [
+    "PicoCTF Forensic/04- Forensic/05- Operation Orchid.md",
+    "PicoCTF Forensic/04- Forensic/04- Sleuthkit Intro.md",
+    "PicoCTF Forensic/04- Forensic/03- Sleuthkit Apprentice.md",
+    "PicoCTF Forensic/04- Forensic/02- Disk,Disk, Sleuth!.md",
+    "PicoCTF Forensic/04- Forensic/01- Milkslap.md",
+    "PicoCTF Forensic/04- Forensic/06- Operation Oni.md",
+    "PicoCTF Forensic/03- Forensic/01- WebNet0.md",
+    "PicoCTF Forensic/04- Forensic",
     "PicoCTF Forensic/03- Forensic/02- WebNet1.md",
     "PicoCTF Forensic/03- Forensic/03- Matryoshka doll.md",
     "PicoCTF Forensic/03- Forensic/04- tunn3l_v1s10n.md",
     "PicoCTF Forensic/03- Forensic/05- MacroHard WeakEdge.md",
-    "PicoCTF Forensic/03- Forensic/01- WebNet0.md",
     "PicoCTF Forensic/01- Forensic/05- What Lies Within.md",
     "Concurso CTF/Examen Parcial1/Parte 2/07 - Java Code Analysis.md",
     "PicoCTF Forensic/03- Forensic",
@@ -191,12 +198,6 @@
     "Concurso CTF/Examen Parcial1/Parte 2/05- SSTI1.md",
     "Concurso CTF/Examen Parcial1/Parte 2/06 - Findme.md",
     "Concurso CTF/Examen Parcial1/Parte 2/04- n0s4n1ty 1.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/02-Cookie Monster Secret Recipe.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/01- BookMarklet.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/06- Rust Fixme3.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/05- Rust Fixme 2.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/10- Specialer.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/08- Flag Shop.md",
     "Concurso CTF/Examen Parcial1/Parte 2",
     "Concurso CTF/Examen Parcial1/Parte 1",
     "Concurso CTF/Examen Parcial1",
@@ -205,7 +206,6 @@
     "PicoCTF Forensic/01- Forensic",
     "PicoCTF Forensic",
     "PicoCTF Web/04- Web",
-    "PicoCTF Web/Tarea 2 - Web",
     "Pasted image 20250328184006.png",
     "Pasted image 20250328184011.png"
   ]
