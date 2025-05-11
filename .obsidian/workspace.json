@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PicoCTF Forensic/04- Forensic/06- Operation Oni.md",
+                "file": "PicoCTF Forensic/Tarea 3 Forensic/09- Ph4nt0m 1ntrud3r.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06- Operation Oni"
+              "title": "09- Ph4nt0m 1ntrud3r"
             }
           }
         ]
@@ -170,12 +170,24 @@
   },
   "active": "fe667f38531c9b5f",
   "lastOpenFiles": [
+    "PicoCTF Forensic/Tarea 3 Forensic/10- Flags are stepic.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/08- RED.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/09- Ph4nt0m 1ntrud3r.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/07- Secret of the Polyglot.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/06- Can You See.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/05- Scan Surprise.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/04- Redaction gone wrong.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/03- Hideme.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/02- St3g0.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/01- Information.md",
+    "PicoCTF Forensic/04- Forensic/01- Milkslap.md",
     "PicoCTF Forensic/04- Forensic/05- Operation Orchid.md",
+    "PicoCTF Forensic/04- Forensic/06- Operation Oni.md",
+    "PicoCTF Forensic/Tarea 3 Forensic",
+    "PicoCTF Forensic/04- Forensic/Sin título.md",
     "PicoCTF Forensic/04- Forensic/04- Sleuthkit Intro.md",
     "PicoCTF Forensic/04- Forensic/03- Sleuthkit Apprentice.md",
     "PicoCTF Forensic/04- Forensic/02- Disk,Disk, Sleuth!.md",
-    "PicoCTF Forensic/04- Forensic/01- Milkslap.md",
-    "PicoCTF Forensic/04- Forensic/06- Operation Oni.md",
     "PicoCTF Forensic/03- Forensic/01- WebNet0.md",
     "PicoCTF Forensic/04- Forensic",
     "PicoCTF Forensic/03- Forensic/02- WebNet1.md",
@@ -187,17 +199,6 @@
     "PicoCTF Forensic/03- Forensic",
     "Concurso CTF/Examen Parcial1/Parte 2/10 - WebSockFish.md",
     "Concurso CTF/Examen Parcial1/Parte 2/09 - SSTI 2.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/08 - SQL Direct.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/03- Head-dump.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/09- Sans Alpha.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/07- Dont you love banners.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/04- Rust Fixme 1.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/03- Python Wrangling.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/02- HashingJobApp.md",
-    "Concurso CTF/Examen Parcial1/Parte 1/01- Fantasy.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/05- SSTI1.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/06 - Findme.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/04- n0s4n1ty 1.md",
     "Concurso CTF/Examen Parcial1/Parte 2",
     "Concurso CTF/Examen Parcial1/Parte 1",
     "Concurso CTF/Examen Parcial1",
@@ -205,7 +206,6 @@
     "PicoCTF Forensic/02- Forensic",
     "PicoCTF Forensic/01- Forensic",
     "PicoCTF Forensic",
-    "PicoCTF Web/04- Web",
     "Pasted image 20250328184006.png",
     "Pasted image 20250328184011.png"
   ]
