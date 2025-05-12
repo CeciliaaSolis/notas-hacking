@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PicoCTF Forensic/Tarea 3 Forensic/09- Ph4nt0m 1ntrud3r.md",
+                "file": "PicoCTF Crypto/01- Crypto/08- Interencdec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09- Ph4nt0m 1ntrud3r"
+              "title": "08- Interencdec"
             }
           }
         ]
@@ -170,15 +170,26 @@
   },
   "active": "fe667f38531c9b5f",
   "lastOpenFiles": [
+    "PicoCTF Crypto/01- Crypto/07- Waves over lambda.md",
+    "PicoCTF Crypto/01- Crypto/08- Interencdec.md",
+    "PicoCTF Crypto/01- Crypto/06- Tapping.md",
+    "PicoCTF Crypto/01- Crypto/05- La cifra de.md",
+    "PicoCTF Crypto/01- Crypto/04- Easy 1.md",
+    "PicoCTF Crypto/01- Crypto/03- Caesar.md",
+    "PicoCTF Crypto/01- Crypto/02- 13.md",
+    "PicoCTF Crypto/01- Crypto/01- The numbers.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/02- St3g0.md",
+    "PicoCTF Forensic/Tarea 3 Forensic/09- Ph4nt0m 1ntrud3r.md",
+    "PicoCTF Crypto/01- Crypto",
+    "PicoCTF Crypto/Sin título.md",
+    "PicoCTF Crypto",
     "PicoCTF Forensic/Tarea 3 Forensic/10- Flags are stepic.md",
     "PicoCTF Forensic/Tarea 3 Forensic/08- RED.md",
-    "PicoCTF Forensic/Tarea 3 Forensic/09- Ph4nt0m 1ntrud3r.md",
     "PicoCTF Forensic/Tarea 3 Forensic/07- Secret of the Polyglot.md",
     "PicoCTF Forensic/Tarea 3 Forensic/06- Can You See.md",
     "PicoCTF Forensic/Tarea 3 Forensic/05- Scan Surprise.md",
     "PicoCTF Forensic/Tarea 3 Forensic/04- Redaction gone wrong.md",
     "PicoCTF Forensic/Tarea 3 Forensic/03- Hideme.md",
-    "PicoCTF Forensic/Tarea 3 Forensic/02- St3g0.md",
     "PicoCTF Forensic/Tarea 3 Forensic/01- Information.md",
     "PicoCTF Forensic/04- Forensic/01- Milkslap.md",
     "PicoCTF Forensic/04- Forensic/05- Operation Orchid.md",
@@ -188,24 +199,13 @@
     "PicoCTF Forensic/04- Forensic/04- Sleuthkit Intro.md",
     "PicoCTF Forensic/04- Forensic/03- Sleuthkit Apprentice.md",
     "PicoCTF Forensic/04- Forensic/02- Disk,Disk, Sleuth!.md",
-    "PicoCTF Forensic/03- Forensic/01- WebNet0.md",
     "PicoCTF Forensic/04- Forensic",
-    "PicoCTF Forensic/03- Forensic/02- WebNet1.md",
-    "PicoCTF Forensic/03- Forensic/03- Matryoshka doll.md",
-    "PicoCTF Forensic/03- Forensic/04- tunn3l_v1s10n.md",
-    "PicoCTF Forensic/03- Forensic/05- MacroHard WeakEdge.md",
-    "PicoCTF Forensic/01- Forensic/05- What Lies Within.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/07 - Java Code Analysis.md",
     "PicoCTF Forensic/03- Forensic",
-    "Concurso CTF/Examen Parcial1/Parte 2/10 - WebSockFish.md",
-    "Concurso CTF/Examen Parcial1/Parte 2/09 - SSTI 2.md",
     "Concurso CTF/Examen Parcial1/Parte 2",
     "Concurso CTF/Examen Parcial1/Parte 1",
     "Concurso CTF/Examen Parcial1",
     "PicoCTF/Sin nombre",
     "PicoCTF Forensic/02- Forensic",
-    "PicoCTF Forensic/01- Forensic",
-    "PicoCTF Forensic",
     "Pasted image 20250328184006.png",
     "Pasted image 20250328184011.png"
   ]
