@@ -11,14 +11,17 @@
             "id": "fe667f38531c9b5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "PicoCTF Crypto/01- Crypto/08- Interencdec.md",
-                "mode": "source",
-                "source": false
+                "file": "Sin título.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "08- Interencdec"
+              "icon": "lucide-layout-dashboard",
+              "title": "Sin título"
             }
           }
         ]
@@ -78,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e2b009c706401706",
@@ -170,14 +174,18 @@
   },
   "active": "fe667f38531c9b5f",
   "lastOpenFiles": [
+    "PicoCTF Crypto/02-Crypto/01- rsa-pop-quiz.md",
+    "Sin título.canvas",
+    "PicoCTF Crypto/01- Crypto/01- The numbers.md",
     "PicoCTF Crypto/01- Crypto/07- Waves over lambda.md",
-    "PicoCTF Crypto/01- Crypto/08- Interencdec.md",
+    "PicoCTF Crypto/02-Crypto",
+    "PicoCTF Crypto/01- Crypto/Sin nombre",
     "PicoCTF Crypto/01- Crypto/06- Tapping.md",
+    "PicoCTF Crypto/01- Crypto/08- Interencdec.md",
     "PicoCTF Crypto/01- Crypto/05- La cifra de.md",
     "PicoCTF Crypto/01- Crypto/04- Easy 1.md",
     "PicoCTF Crypto/01- Crypto/03- Caesar.md",
     "PicoCTF Crypto/01- Crypto/02- 13.md",
-    "PicoCTF Crypto/01- Crypto/01- The numbers.md",
     "PicoCTF Forensic/Tarea 3 Forensic/02- St3g0.md",
     "PicoCTF Forensic/Tarea 3 Forensic/09- Ph4nt0m 1ntrud3r.md",
     "PicoCTF Crypto/01- Crypto",
@@ -197,15 +205,11 @@
     "PicoCTF Forensic/Tarea 3 Forensic",
     "PicoCTF Forensic/04- Forensic/Sin título.md",
     "PicoCTF Forensic/04- Forensic/04- Sleuthkit Intro.md",
-    "PicoCTF Forensic/04- Forensic/03- Sleuthkit Apprentice.md",
-    "PicoCTF Forensic/04- Forensic/02- Disk,Disk, Sleuth!.md",
     "PicoCTF Forensic/04- Forensic",
     "PicoCTF Forensic/03- Forensic",
     "Concurso CTF/Examen Parcial1/Parte 2",
     "Concurso CTF/Examen Parcial1/Parte 1",
     "Concurso CTF/Examen Parcial1",
-    "PicoCTF/Sin nombre",
-    "PicoCTF Forensic/02- Forensic",
     "Pasted image 20250328184006.png",
     "Pasted image 20250328184011.png"
   ]
