@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "86af040119195858",
+        "id": "8c6bd6cac81beabe",
         "type": "tabs",
         "children": [
           {
-            "id": "fe667f38531c9b5f",
+            "id": "d36bf12ccf365888",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sin título.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "PicoCTF Crypto/03- Crypto/04- b00tl3gRSA3.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sin título"
+              "icon": "lucide-file",
+              "title": "04- b00tl3gRSA3"
             }
           }
         ]
@@ -81,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e2b009c706401706",
@@ -172,10 +168,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "fe667f38531c9b5f",
+  "active": "d36bf12ccf365888",
   "lastOpenFiles": [
-    "PicoCTF Crypto/02-Crypto/01- rsa-pop-quiz.md",
+    "PicoCTF Crypto/03- Crypto/03- b00tl3gRSA2.md",
+    "PicoCTF Crypto/03- Crypto/04- b00tl3gRSA3.md",
+    "PicoCTF Crypto/03- Crypto/02- Mind your Ps and Qs.md",
+    "PicoCTF Crypto/03- Crypto/01- Mini RSA.md",
+    "PicoCTF Crypto/01- Crypto/02- 13.md",
+    "PicoCTF Crypto/03- Crypto/Sin nombre",
+    "PicoCTF Crypto/03- Crypto",
     "Sin título.canvas",
+    "PicoCTF Crypto/02-Crypto/01- rsa-pop-quiz.md",
     "PicoCTF Crypto/01- Crypto/01- The numbers.md",
     "PicoCTF Crypto/01- Crypto/07- Waves over lambda.md",
     "PicoCTF Crypto/02-Crypto",
@@ -185,7 +188,6 @@
     "PicoCTF Crypto/01- Crypto/05- La cifra de.md",
     "PicoCTF Crypto/01- Crypto/04- Easy 1.md",
     "PicoCTF Crypto/01- Crypto/03- Caesar.md",
-    "PicoCTF Crypto/01- Crypto/02- 13.md",
     "PicoCTF Forensic/Tarea 3 Forensic/02- St3g0.md",
     "PicoCTF Forensic/Tarea 3 Forensic/09- Ph4nt0m 1ntrud3r.md",
     "PicoCTF Crypto/01- Crypto",
@@ -201,15 +203,10 @@
     "PicoCTF Forensic/Tarea 3 Forensic/01- Information.md",
     "PicoCTF Forensic/04- Forensic/01- Milkslap.md",
     "PicoCTF Forensic/04- Forensic/05- Operation Orchid.md",
-    "PicoCTF Forensic/04- Forensic/06- Operation Oni.md",
     "PicoCTF Forensic/Tarea 3 Forensic",
-    "PicoCTF Forensic/04- Forensic/Sin título.md",
-    "PicoCTF Forensic/04- Forensic/04- Sleuthkit Intro.md",
     "PicoCTF Forensic/04- Forensic",
     "PicoCTF Forensic/03- Forensic",
     "Concurso CTF/Examen Parcial1/Parte 2",
-    "Concurso CTF/Examen Parcial1/Parte 1",
-    "Concurso CTF/Examen Parcial1",
     "Pasted image 20250328184006.png",
     "Pasted image 20250328184011.png"
   ]
